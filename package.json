@@ -2,11 +2,7 @@
   "name": "bot",
   "version": "1.0.0",
   "description": "<h1 align=\"center\"><a href=\"https://smee.io\">smee.io</a></h1>",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "tests"
-  },
+  "private": true,
   "scripts": {
     "start": "node ./index.js",
     "start-dev": "concurrently \"nodemon --ignore src/ ./index.js\" \"webpack -w --mode development\"",
